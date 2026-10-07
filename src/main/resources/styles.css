@@ -1,0 +1,37 @@
+.root {
+    -fx-background-color: #e6f0ff; /* Light blue */
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+.label {
+    -fx-background-color: #cce0ff;
+    -fx-max-width: 150;
+    -fx-text-fill: #003366;
+    -fx-padding: 8 12;
+    -fx-background-radius: 10;
+    -fx-font-size: 12px;
+    -fx-wrap-text: true;
+}
+
+.user-message {
+    -fx-background-color: #99ccff;
+    -fx-text-fill: #002b55;
+    -fx-alignment: center-right;
+}
+
+.incoming-message {
+    -fx-background-color: #d6eaff;
+    -fx-text-fill: #003366;
+    -fx-alignment: center-left;
+}
+.chat-text-area{
+    -fx-background-radius: 10px;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+.button{
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #003366;
+    -fx-padding: 7px 12px;
+}
